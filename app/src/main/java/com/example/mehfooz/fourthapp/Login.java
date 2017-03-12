@@ -30,7 +30,7 @@ private  static Button btn;
                     new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
-                            if (uname.getText().toString().equals("mehfooz") && password.getText().toString().equals("mehfooz")) {
+                            if (uname.getText().toString().equals("admin") && password.getText().toString().equals("admin")) {
                                 Toast.makeText(Login.this, "Valid credential", Toast.LENGTH_SHORT).show();
                             } else {
                                 Toast.makeText(Login.this, "InValid credential", Toast.LENGTH_SHORT).show();
